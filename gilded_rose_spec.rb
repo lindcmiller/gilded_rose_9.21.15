@@ -235,7 +235,7 @@ describe "#update_quality" do
     end
 
     context "conjured item" do
-      before { skip "Conjured items are not implemented yet" }
+      # before { skip "Conjured items are not implemented yet" }
       let(:name) { "Conjured Mana Cake" }
 
       describe "#sell_in" do
@@ -294,7 +294,7 @@ describe "#update_quality" do
     let(:items) {
       [
         Item.new("NORMAL ITEM", 5, 10),
-        Item.new("Aged Brie", 3, 10),
+        Item.new("Aged Brie", 3, 10)
       ]
     }
 
